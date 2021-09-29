@@ -1,0 +1,23 @@
+{
+  "name": "super_market",
+  "version": "1.0.0",
+  "description": "This is an online supermarket platform",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mourad Sherif",
+  "license": "ISC",
+  "dependencies": {
+    "ajax": "0.0.4",
+    "axios": "^0.21.1",
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "google-spreadsheet": "^3.0.13",
+    "googleapis": "^39.2.0",
+    "html": "^1.0.0",
+    "mongodb": "^4.1.0",
+    "mongoose": "^5.10.7",
+    "nodemon": "^2.0.12"
+  }
+}

@@ -1,0 +1,11 @@
+body {
+    display: flex;
+    padding-left: 20px;
+    flex-direction: column;
+    align-content: space-between;
+}
+
+a {
+    width: 150px;
+    margin-top: 150px;
+}

@@ -1,0 +1,41 @@
+header {
+    width: 100vw;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+}
+
+.orders {
+    width: 80vw;
+    height: max-content;
+    margin-right: 10vw;
+    margin-left: 10vw;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.order {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 50px;
+    margin: 25px;
+}
+
+img {
+    width: 150px;
+    height: 150px;
+}
+
+button {
+    width: 100vw
+}
+
+.btn-img {
+    width: 50px;
+    height: 50px;
+}
