@@ -1,0 +1,70 @@
+body {
+    display: flex;
+    font-family: 'Notable', sans-serif;
+}
+
+div {
+    width: 10vw;
+    height: 20vh;
+    font-size: 3vw;
+    border: 2px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mark {
+    background-color: green;
+}
+
+img {
+    width: 20px;
+    height: 20px;
+}
+
+.numpad {
+    position: absolute;
+    left: 38%;
+    top: 60%;
+    width: 20vw;
+    display: flex;
+    flex-direction: row;
+    border: none;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-around;
+    margin-top: 50px;
+}
+
+.floor {
+    width: 100%;
+    height: 33.333%;
+    border: 2px solid green;
+    margin-bottom: 80px;
+}
+
+#V-2 {
+    left: 160px;
+    width: 40%;
+}
+
+#V-3 {
+    right: 20%;
+    left: 53%;
+    width: 34%;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    float: right;
+    align-items: flex-start;
+}
+
+button {
+    position: absolute;
+    top: 130vh;
+    width: 98vw;
+    background-color: #32ba7c;
+}
