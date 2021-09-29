@@ -3,5 +3,5 @@
 ## Client Side
 index: / or /categories
 
-##Admin Side
+## Admin Side
 orders: /orders/asdrepeatasd123
