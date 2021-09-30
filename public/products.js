@@ -16,7 +16,7 @@ indexes.forEach((index, i) => {
 })
 
 function checked(size, i, index, p) {
-	reset(p)
+	resetSize(p)
 	var chosenSize = document.querySelector(".chosenSize")
 	chosenSize.textContent = size
 	chosenSize.setAttribute("i", i)
@@ -124,6 +124,12 @@ function reset(i, index){
 	document.querySelectorAll('select')
 		.forEach(item => item.selectedIndex = 0)
 	document.querySelectorAll('select')[i].selectedIndex = index
+}
+
+//Resets the Size
+function resetSize(i, index){
+	numDiv[i].textContent = "0";
+	chosenSize.textContent = "";
 }
 
 // Add Function
