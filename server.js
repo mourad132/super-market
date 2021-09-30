@@ -531,6 +531,7 @@ app.get("/order/done/:id", (req, res) => {
 	})
 })
 
-app.listen(5000, function() {
-	console.log("Server Started")
+//SERVER LISTENER
+app.listen(process.env.PORT || 80, function(){
+    console.log('server started')
 })
